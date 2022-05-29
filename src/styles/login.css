@@ -1,0 +1,40 @@
+input {
+    margin-top: 10px;
+    text-indent: 5px;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logo{
+    position: absolute/relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #343434;
+    position: absolute/relative;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
+#login-form {
+    flex-direction: column;
+}
+
+@media only screen  and (hover: none) {
+    input {
+        margin-top: 10px;
+        text-indent: 5px;
+        font-size: 50px;
+    }
+    .logo-text{
+        font-size: 50px;
+    }
+}

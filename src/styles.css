@@ -1,0 +1,270 @@
+body {
+    background-color: #4e4e4e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold; 
+    color:white;
+}
+
+header {
+    background-color: #323232;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: 60px;
+}
+
+.board {
+    margin-right: 100px;
+}
+
+#user-email {
+    font-size: 30px;
+    margin-inline: 10px;
+}
+
+#error-field {
+    color:red;
+}
+
+#main-container {
+    background-color: #4e4e4e;
+}
+
+#url-to-board {
+    background-color: #4e4e4e;
+}
+
+main{
+    margin-top: 70px;
+    background-color: #4e4e4e;
+}
+
+button {
+    border-radius: 10px;
+    color:white;
+    font-size: 24px;
+    font-weight: bold; 
+    border: 0;
+    padding: 4px 10px;
+}
+
+input {
+    border-radius: 10px;
+    background-color: #4e4e4e;
+    font-size: 24px;
+    font-weight: bold; 
+    border: 0;
+    color: white;
+}
+
+#url-to-board {
+    width: 300px;
+}
+
+#url-to-board-input{
+    width: 300px;
+}
+
+.gray-button {
+    background-color: #4e4e4e;
+}
+
+.blue-button {
+    background-color: #518cff;
+}
+
+.black-button {
+    background-color: #1b1b1b;
+}
+
+
+.account-buttons {
+    float: right;
+    margin-right: 10px;
+}
+
+.account-buttons > form{
+    display: inline-block;
+
+}
+
+.logo {
+    margin-left: 10px;
+    float: left;
+    height: 60px;
+}
+
+.logo-text {
+    display: inline-block;
+    font-size: 32px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+.big-circle {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.middle-circle {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.little-circle {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+@media only screen  and (hover: none){
+    header {
+        height: 90px;
+    }   
+
+    body {
+        font-size: 32px;
+    }
+
+    input {
+        font-size: 50px;
+        width:  300px;
+    }
+
+    .logo{
+        float: left;
+        width: 500px;
+    }
+    .board{
+        margin-left: 100px;
+    }
+    .logo-text{
+        font-size: 64px;
+    }
+    
+    button {
+        border-radius: 10px;
+        color:white;
+        font-size: 50px;
+        font-weight: bold; 
+        border: 0;
+        padding: 4px 10px;
+    }
+    
+    #url-to-board{
+        width: 500px;
+
+    }
+    #url-to-board-input{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .gray-button {
+        background-color: #4e4e4e;
+    }
+    
+    .blue-button {
+        background-color: #518cff;
+    }
+    
+    .black-button {
+        background-color: #1b1b1b;
+    }
+    
+    .big-circle {
+        display: none;
+    }
+    
+    .middle-circle {
+        display: none;
+    }
+    
+    .little-circle {
+        display: none;
+    }
+
+}
+
+
+@media only screen  and (max-width: 560px){
+    header {
+        height: 90px;
+    }
+    
+    main{
+        margin-top: 100px;
+    }
+
+    body {
+        font-size: 32px;
+    }
+
+    input {
+        font-size: 32px;
+        width:  300px;
+    }
+    
+    button {
+        border-radius: 10px;
+        color:white;
+        font-size: 32px;
+        font-weight: bold; 
+        border: 0;
+        padding: 4px 10px;
+    }
+    
+    .gray-button {
+        background-color: #4e4e4e;
+    }
+    
+    .blue-button {
+        background-color: #518cff;
+    }
+    
+    .black-button {
+        background-color: #1b1b1b;
+    }
+        
+    .account-buttons {
+        display: none;
+        margin-top: 12px;
+        margin-right: 10px;
+    }
+
+    .logo-text {
+        display: inline-block;
+        font-size: 64px;
+        margin-top: 12px;
+        margin-bottom: 8px;
+    }
+    
+    .big-circle {
+        display: none;
+    }
+    
+    .middle-circle {
+        display: none;
+    }
+    
+    .little-circle {
+        display: none;
+    }
+
+}
+

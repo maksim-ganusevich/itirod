@@ -1,0 +1,63 @@
+main {
+    margin-top: 150px;
+    background-color: #343434;
+    position: absolute/relative;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
+#sign-up-form {
+    position: absolute/relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input {
+    margin-top: 5px;
+    text-indent: 5px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.in-form {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-self: center;
+    width: 324px;
+}
+
+
+@media only screen  and (hover: none) {
+    .logo-text {
+        Position: relative;
+        font-size: 64px;
+        margin-top: 12px;
+        margin-bottom: 8px;
+    }
+    input {
+        font-size: 50px;
+    }
+    #sign-up-form {
+        position: absolute/relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .logo {
+        position: absolute/relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center
+    }
+}

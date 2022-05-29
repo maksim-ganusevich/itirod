@@ -1,0 +1,39 @@
+{
+  "name": "itirod-checkers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maksim-ganusevich/itirod.git"
+  },
+  "keywords": [
+    "checkers"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maksim-ganusevich/itirod/issues"
+  },
+  "homepage": "https://github.com/maksim-ganusevich/itirod#readme",
+  "dependencies": {
+    "firebase": "^9.8.0",
+    "firebase-cli": "^1.2.0",
+    "firebaseui": "^6.0.1"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "5.72.0",
+    "webpack-cli": "4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
